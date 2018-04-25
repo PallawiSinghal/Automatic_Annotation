@@ -1,7 +1,7 @@
 import os
 import cv2
 import numpy as np
-import face_recognition
+import face_recognition #This is from dlib library which gives the face location.
 
 def automatic_annotation(image_folder_path,filename,class_name):
     image_path = image_folder_path + '/' + filename
