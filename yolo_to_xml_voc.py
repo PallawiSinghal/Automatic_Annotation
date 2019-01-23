@@ -17,7 +17,7 @@ def create_root(file_prefix, width, height):
     root.set("verified","yes")
     ET.SubElement(root, "folder").text = "images"
     ET.SubElement(root, "filename").text = "{}.jpg".format(file_prefix)
-    ET.SubElement(root,"path").text = "/home/arya/workspaip_01atm_slip.xml"
+    ET.SubElement(root,"path").text = "workspaip_01atm_slip.xml"
 
     source = ET.SubElement(root, "source")
     ET.SubElement(source, "database").text = "UNKNOWN"
